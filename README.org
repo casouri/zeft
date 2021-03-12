@@ -1,0 +1,16 @@
+#+TITLE: Zeft
+
+[[./demo.gif]]
+
+This is a light-weight [[https://jblevins.org/projects/deft/][Deft]] with a different interface. I wanted to use Emacs-builtin input methods and I want a interface closer to Apple’s Note.app. Hence this small package.
+
+* Usage
+
+Type =M-x zeft RET= to bring up the panel. Type the search phrase in the first line. Press =C-n= and =C-p= to go through each file. You can preview a file by pressing =SPC= when the point is on a file, or click the file with the mouse. Press =RET= to open the file in the same window.
+
+Note that:
+
+1. Zeft only looks for first-level files in ~zeft-directory~. Files in sub-directories are not searched.
+2. Zeft creates new files by using the search phrase as the filename and title, if you want otherwise, redefine ~zeft-create-note~.
+3. Zeft saves the current window configuration before switching to the zeft buffer. When the zeft buffer is killed, Zeft restores the saved window configuration.
+4. Zeft only display the first 50 files when the search phrase is empty, if you want to see all the files, force a refresh by typing =C-c C-g=.
