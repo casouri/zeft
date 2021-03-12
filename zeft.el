@@ -21,14 +21,14 @@
 ;; Usage:
 ;;
 ;; Type M-x zeft RET, and you should see the Zeft buffer. Type in your
-;; search phrase in the first line and the result will show up as you
+;; search phrase in the first line and the results will show up as you
 ;; type. Press C-n and C-p to go through each file. You can preview a
 ;; file by pressing SPC when the point is on a file, or click the file
 ;; with the mouse. Press RET to open the file in the same window.
 ;;
 ;; Type C-c C-g to force a refresh. When point is on the search
 ;; phrase, press RET to create a file with the search phrase as
-;; filename and title.
+;; the filename and title.
 ;;
 ;; Note that:
 ;;
@@ -43,7 +43,7 @@
 ;;    Zeft buffer. When Zeft buffer is killed, Zeft restores the saved
 ;;    window configuration.
 ;;
-;; 4. Zeft only display the first 50 files when the search phrase is
+;; 4. Zeft only displays the first 50 files when the search phrase is
 ;;    empty, if you want to see all the files, force a refresh by
 ;;    typing C-c C-g.
 

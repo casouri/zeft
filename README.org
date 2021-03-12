@@ -13,4 +13,4 @@ Note that:
 1. Zeft only looks for first-level files in ~zeft-directory~. Files in sub-directories are not searched.
 2. Zeft creates new files by using the search phrase as the filename and title, if you want otherwise, redefine ~zeft-create-note~.
 3. Zeft saves the current window configuration before switching to the zeft buffer. When the zeft buffer is killed, Zeft restores the saved window configuration.
-4. Zeft only display the first 50 files when the search phrase is empty, if you want to see all the files, force a refresh by typing =C-c C-g=.
+4. Zeft only displays the first 50 files when the search phrase is empty, if you want to see all the files, force a refresh by typing =C-c C-g=.
