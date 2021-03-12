@@ -156,6 +156,7 @@ saved file content."
 
 ;;; Userland
 
+;;;###autoload
 (defun zeft ()
   "Start Zeft."
   (interactive)
